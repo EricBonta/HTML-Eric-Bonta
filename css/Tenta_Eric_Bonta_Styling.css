@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 80px;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+    margin: 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: rgb(87, 87, 87);
+    background: linear-gradient(90deg, rgb(163, 159, 155) 0%, rgb(68, 68, 68));
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+nav img {
+    width: 25vw;
+}
+
+nav ul {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    flex-direction: column;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+
+main {
+    background: rgb(244, 194, 128);
+    background: linear-gradient(90deg, rgba(244, 194, 128, 1) 0%, rgba(218, 91, 16, 1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2em;
+}
+
+article p,
+.InternetsHistoria p,
+h4 {
+    padding-left: 10px;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+main a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 81, 0);
+    box-shadow: 1px 1px 7px black;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+main a:hover {
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.Presentation p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.Presentation img {
+    margin: 0 7vw;
+}
+
+.Presentation img,
+.ModernAgile img,
+.col img {
+    width: 80vw;
+    margin: 0px 35px;
+}
+
+.ModernAgile img:hover,
+.col img:hover {
+    transform: scale(1.2);
+}
+
+.ModernAgile img {
+    border-radius: 10%;
+}
+
+.InternetsHistoria {
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100vw;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+}
+
+footer p {
+    color: tomato;
+    padding: 10px;
+}
